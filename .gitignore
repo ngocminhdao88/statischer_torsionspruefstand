@@ -1,0 +1,25 @@
+# In repository we don't need to have compiled objects
+*.[oa]
+
+# Generated MOC, resource and UI files
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# Log files (usually created by QtTest)
+*.log
+
+# Editors temporary files
+*~
+
+# Debug, release and build dirs
+Debug/
+Release/
+build/
+
+# Custom QT Creator settings
+*.pro.user
+
+# Windows specifics files
+Thumbs.db
+desktop.ini
